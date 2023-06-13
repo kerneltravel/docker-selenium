@@ -7,6 +7,8 @@ LABEL authors=${AUTHORS}
 
 USER 1200
 
+RUN sudo apt update && sudo apt install python3-pip && sudo apt install vim && pip install DrissionPage && sudo apt install google-chrome-stable && sudo ln -s /usr/bin/google-chrome /usr/bin/chrome
+
 #====================================
 # Scripts to run Selenium Standalone
 #====================================
