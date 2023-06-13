@@ -7,7 +7,7 @@ LABEL authors=${AUTHORS}
 
 USER 1200
 
-RUN sudo apt update -y && sudo apt install -y python3-pip  vim google-chrome-stable && pip install DrissionPage 
+RUN sudo apt update -y && sudo apt install -y python3-pip  vim && pip install DrissionPage
 RUN sudo ln -s /usr/bin/google-chrome /usr/bin/chrome
 
 #====================================
